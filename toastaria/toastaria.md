@@ -1,6 +1,6 @@
 # Toastaria
 
-This folder contains supporting materials for WUD workshop: How to build a chatbot in Google [dialogflowES](https://dialogflow.cloud.google.com/) system. Files contains intents separated by numbered 1,2,3 or all intents in complete_toastaria.zip file. The dialog tree view for better orientation is available [here](https://bit.ly/3pFs6lp). Each bubble represent one intent. Its hard to copy separate sentence thus the intents are provided in the section bellow. The structure of each intent is as follows. The (X) in the bracket refer to zip file of this intent.
+> This folder contains supporting materials for WUD workshop: How to build a chatbot in Google [dialogflowES](https://dialogflow.cloud.google.com/) system. Files contains intents separated by numbered 1,2,3 or all intents in complete_toastaria.zip file. The dialog tree view for better orientation is available [here](https://bit.ly/3pFs6lp). Each bubble represent one intent. Its hard to copy separate sentence thus the intents are provided in the section bellow. The structure of each intent is as follows. The (X) in the bracket refer to zip file of this intent.
 
 ### *Name of intent (X)*
 *User: Training phrase or phrases separated by |*
@@ -57,7 +57,7 @@ This folder contains supporting materials for WUD workshop: How to build a chatb
 ##
 
 ## ENTITIES
-Having an intent for each type of toast is not effective thus we will use ENTITY to extract the information about toast type. The structure of enity is first its name, then each item represent one entry with synonyms in the bracket
+> Having an intent for each type of toast is not effective thus we will use ENTITY to extract the information about toast type. The structure of enity is first its name, then each item represent one entry with synonyms in the bracket
 
 ### *Toasts*
 * *ham and cheese (cheese with ham)*
@@ -67,7 +67,7 @@ Having an intent for each type of toast is not effective thus we will use ENTITY
 * *goat cheese with beetroot (cheese beetroot)*
 
 ## Intent using entities
-When using entity in the intent, we can ask user to provide this information. In action and parameters select checkbox of required parameter and enter prompt (last column).  This promt is shown to the user if the entity is required.  Another change is in the response. As we replace 5 intents for each toas just by one, we want to show the user which toast he selected. This is done by calling our entity with dollar sign $toasts 
+> When using entity in the intent, we can ask user to provide this information. In action and parameters select checkbox of required parameter and enter prompt (last column).  This promt is shown to the user if the entity is required.  Another change is in the response. As we replace 5 intents for each toas just by one, we want to show the user which toast he selected. This is done by calling our entity with dollar sign $toasts 
 
 ### *Order toast (3)*
 *User: I'd like Cheesy toast |  one Cheesy | order a toast| i wanna ham and cheese toast*
