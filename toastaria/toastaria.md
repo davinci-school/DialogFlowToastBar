@@ -23,7 +23,9 @@ The structure of each intent is as follows. The (X) in the bracket refer to zip 
 
 *Bot: Would you like a meet toast or vegetarian?*
 
-> **DONT include the bracket with number into the intent name**. It serves for better orienation which files or which tree branch we are in.
+##
+> **DON'T include the bracket with number into the intent name**. It serves for better orientaion which files or which tree branch we are in.
+##
 
 ### *Meet Toast menu (1)*
 *User: I want toast with meat | meat toast please | definitely meat meat | meat*
