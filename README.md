@@ -1,2 +1,2 @@
 # DialogFlowToastBar
-Contain agents for creating toast bar chatbot
+This folder contains supporting materials for WUD workshop: How to build a chatbot in Google dialogflowES system.
