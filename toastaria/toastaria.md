@@ -70,7 +70,7 @@ Having an intent for each type of toast is not effective thus we will introduce 
 * *goat cheese with beetroot (cheese beetroot)*
 
 ## Intent using entities
-When using entity in the intent, we can ask user to provide information about the toast (not allow him to go further in conversation until he do). Inside the intent, go to option Action and Parameters. Select checkbox of required parameter and enter prompt (last column). This promt is shown to the user if the entity is required and he has not yet specify the type of toast. When using entity we have to change are response. As we replace 5 intents for each toas just by one, we want to show the user which toast he selected. This is done by calling our entity with dollar sign $toasts 
+Our system now has the entity called toasts. Enter the following intent (ignore the prompt for now).
 
 ### *Order toast (3)*
 *User: I'd like Cheesy toast |  one Cheesy | order a toast| i wanna ham and cheese toast*
@@ -78,6 +78,10 @@ When using entity in the intent, we can ask user to provide information about th
 *Prompt: What toast do you want? Enter the toast name or check the menu?*
 
 *Bot: You have ordered $toasts toast.*
+
+When using entity in the intent, we can ask user to provide information about the toast (not allow him to go further in conversation until he do). Inside the intent, go to option Action and Parameters. Select checkbox of required parameter and enter prompt (last column). This promt is shown to the user if the entity is required and he has not yet specify the type of toast. When using entity we have to change are response. As we replace 5 intents for each toas just by one, we want to show the user which toast he selected. This is done by calling our entity with dollar sign $toasts 
+
+
 
 
 
