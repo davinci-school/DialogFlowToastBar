@@ -70,7 +70,7 @@ Having an intent for each type of toast is not effective thus we will introduce 
 * *goat cheese with beetroot (cheese beetroot)*
 
 ## Intent using entities
-Our system now has the entity called toasts. Enter the following intent (ignore the prompt for now).
+Our system now has the entity called toasts. Enter the following intent (ignore the prompt for now). When entering the training phrases it should automaticaly recognize the entity. If not select the word and find the entity manualy.
 
 ### *Order toast (3)*
 *User: I'd like Cheesy toast |  one Cheesy | order a toast| i wanna ham and cheese toast*
