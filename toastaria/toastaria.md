@@ -2,10 +2,10 @@
 
 > This folder contains supporting materials for WUD workshop: How to build a chatbot in Google [dialogflowES](https://dialogflow.cloud.google.com/) system. Files contains intents separated by numbered 1,2,3 or all intents in complete_toastaria.zip file. The dialog tree view for better orientation is available [here](https://bit.ly/3pFs6lp). Each bubble represent one intent. Its hard to copy separate sentence thus the intents are provided in the section bellow. The structure of each intent is as follows. The (X) in the bracket refer to zip file of this intent.
 
-### *Name of intent (X)*
-*User: Training phrase or phrases separated by |*
+> ### *Name of intent (X)*
+> *User: Training phrase or phrases separated by |*
 
-*Bot: Responses*
+> *Bot: Responses*
 ## 
 ## This section contains the list of INTENTS
 
