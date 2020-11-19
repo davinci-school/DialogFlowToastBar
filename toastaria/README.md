@@ -1,6 +1,6 @@
 # Toastaria
 
-This folder contains supporting materials for WUD workshop: How to build a chatbot in Google [dialogflowES](https://dialogflow.cloud.google.com/) system. Zip files contain intents. They can be imported to chatbot. Just click gearwheel next to name of your agent then select tab Export and Import. You can import the overall system from file complete_toastaria.zip or follow the tutorial and enter each intent separately (use files which names starts with number 1,2,3). 
+This folder contains supporting materials for WUD workshop: How to build a chatbot in Google [dialogflowES](https://dialogflow.cloud.google.com/) system. Zip files contain intents. They can be imported to chatbot. Just click gearwheel next to name of your agent then select tab Export and Import. You can import the overall system from file `complete_toastaria.zip` or follow the tutorial and enter each intent separately (use files starting with number 1,2,3). 
 > The dialog tree view for better orientation is available [here](https://bit.ly/3pFs6lp). Each bubble represent one intent. Its hard to copy separate sentence thus the intents are provided in the section bellow. 
 
 The structure of each intent is as follows. The (X) in the bracket refer to zip file of this intent. It serves for better orientaiton which files or which tree branch we are in. DON'T include the bracket with number into the intent name.
